@@ -3,10 +3,11 @@ package gost
 import (
 	"errors"
 	"fmt"
-	"github.com/ginuerzh/gosocks5"
-	"github.com/golang/glog"
 	"net"
 	"time"
+
+	"github.com/dan-v/gosocks5"
+	"github.com/golang/glog"
 )
 
 type TcpForwardServer struct {

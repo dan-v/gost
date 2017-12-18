@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/ginuerzh/gost"
+	"github.com/dan-v/gost"
 	"github.com/golang/glog"
 	"golang.org/x/net/http2"
 	"io/ioutil"

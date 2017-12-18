@@ -3,14 +3,15 @@ package gost
 import (
 	"bufio"
 	"crypto/tls"
-	"github.com/ginuerzh/gosocks5"
-	"github.com/golang/glog"
-	ss "github.com/shadowsocks/shadowsocks-go/shadowsocks"
 	"io"
 	"net"
 	"net/http"
 	"strconv"
 	"strings"
+
+	"github.com/dan-v/gosocks5"
+	ss "github.com/dan-v/shadowsocks-go/shadowsocks"
+	"github.com/golang/glog"
 )
 
 type ProxyServer struct {

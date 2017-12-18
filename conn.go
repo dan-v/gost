@@ -5,9 +5,6 @@ import (
 	"crypto/tls"
 	"encoding/base64"
 	"errors"
-	"github.com/ginuerzh/gosocks5"
-	"github.com/golang/glog"
-	ss "github.com/shadowsocks/shadowsocks-go/shadowsocks"
 	"net"
 	"net/http"
 	"net/http/httputil"
@@ -16,6 +13,10 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/dan-v/gosocks5"
+	ss "github.com/dan-v/shadowsocks-go/shadowsocks"
+	"github.com/golang/glog"
 )
 
 type ProxyConn struct {

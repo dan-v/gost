@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/tls"
 	//"errors"
-	"github.com/ginuerzh/gosocks5"
+	"github.com/dan-v/gosocks5"
 	"github.com/golang/glog"
 	//"os/exec"
 	//"io"
